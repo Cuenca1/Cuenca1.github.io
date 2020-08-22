@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-weight: century Gothic;
+    background: url(adam-kool-ndN00KmbJ1c-unsplash.jpg)no-repeat;
+    background-size: cover;
+    background-position: absolute;
+}
+.container{
+
+    height: 75vh;
+    width: 30%;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;transform: translate(-50%,-50%);
+    padding: 0 10px;
+
+}
+.img{
+
+    height: 70px;
+    width: 70px;
+    background: url(29982983_1966759306971351_6314052589241108193_o.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.container h1{
+
+    color: blanchedalmond;
+    margin-top: 50px;
+}
+p{
+
+    color: blanchedalmond;
+    margin-top: 60px;
+    font-size: large;
+}
+.btn{
+
+    background: no-repeat;
+    outline: none;
+    border: 2px solid white;
+    color: white;
+    width: 80px;
+    padding: 7px 15px;
+    font-size: large;
+    cursor: pointer;
+    transition: 0.5s ease;
+    margin-top: 50px;
+}
+
+.btn:hover{
+
+    background: white;
+    color: black;
+}
+.back{
+    background: no-repeat;
+    outline: none;
+    border: 2px solid white;
+    color: white;
+    width: 90px;
+    padding: 7px 15px;
+    font-size: large;
+    cursor: pointer;
+    transition: 0.5s ease;
+    margin-top: 50px;
+    margin-left: 30px;
+    
+}
+.back:hover{
+
+    background: white;
+    color: black;
+}
+.back a{
+
+    text-decoration: none;
+    outline: none;
+}
